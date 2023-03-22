@@ -1,0 +1,31 @@
+Title:
+Web Development
+
+Description:
+ Web development is the activity of using web technology and skills to deploy a well functional and responsive application towards solving a problem and building effective digital solution.
+
+Title:
+Stacks in Development
+
+Description:
+In have three major stacks in development which are listed below 1. Frontend Development, 2. Backend Development, 3. Fullstack Development
+
+
+Title:
+Front End
+
+Description:
+Front end development is the area of web development that focuses on the user interface. It is all about converting the back-end code into a graphical interface. The front end makes the data easy to read and understand. It’s the front-end design that attracts the audience to your website and asks them to stay there for a longer time interval. 
+
+Title:
+Backend End
+
+Description:
+Back end development is the area of web development that focuses on the logical operations of the website. Back end development makes the website dynamic by allowing user to input data, be ale to save data, gives room  for the manipulation of the user's data and user's data can be retrieved by having to make our application efficiently interact with the database.
+
+
+Title:
+Full Stack Developer
+
+Description:
+A full stack web developer is a person who has developed his skills to the heigth where he/she is ale to efficiently flow from being a frontend developer into backend development as occasion demands.

@@ -1,0 +1,12 @@
+[
+    {   
+        "id" : 1,
+        "title": "Web Development",
+        "description": "Web development is the activity of using web technology and skills to deploy a well functional and responsive application towards solving a problem and building effective digital solution."
+    },
+    {   
+        "id": 2,
+        "title": "Stacks in Development",
+        "description": "In have three major stacks in development which are listed below 1. Frontend Development, 2. Backend Development, 3. Fullstack Development"
+    }
+]
