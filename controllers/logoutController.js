@@ -34,7 +34,7 @@ const handleLogout = async (req, res) => {
         JSON.stringify(usersDB.users)
     );
     res.clearCookie('jwt', {httpOnly: true});
-    res.sendStatus(204);
+    return res.status(201).json( 'Logout Successfully')
             }
 
 module.exports = { handleLogout };

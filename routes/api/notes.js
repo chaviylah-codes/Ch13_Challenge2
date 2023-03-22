@@ -8,11 +8,11 @@ const verifyRole = require('../../middleware/verifyRoles')
 
 router.route('/')
     .get(verifyJWT, verifyRole(ROLE_LIST.ADMIN), notesController.getAllNotes)
-    .post(notesController.createNewNote)
-    .put(verifyJWT, notesController.updateNote) 
+    .post(verifyJWT, verifyRole(ROLE_LIST.ADMIN, ROLE_LIST.USER), notesController.createNewNote)
+    .put(verifyJWT, verifyRole(ROLE_LIST.ADMIN, ROLE_LIST.USER), notesController.updateNote) 
     .delete(verifyJWT, verifyRole(ROLE_LIST.ADMIN), notesController.deleteNote)
 
-    router.route('/getNote')
-    .get(notesController.getNote)
+    router.route('/getnote')
+    .get(verifyJWT, verifyRole(ROLE_LIST.ADMIN, ROLE_LIST.USER), notesController.getNote)
 
     module.exports =router;
